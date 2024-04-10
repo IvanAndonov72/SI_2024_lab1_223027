@@ -1,0 +1,91 @@
+git log od master:
+
+commit 31a1f9151d9f2580fc4a106023b69c1e3d2e20e4 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:41:11 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit cb7544bbe30e61a3e4fbc19d7bd106ee580bc95f (origin/bug1, bug1)
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:43:33 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit c0e9a39b712dca014a7e80f5aab81a7fc37814b6
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:37:53 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit a31e8a1a216d2779662fed6ded283472af853f18
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 17:45:27 2024 +0200
+
+    Add starter code
+
+commit 2eb4df5fb43559c70764c9d8e6f625c7a38eceeb
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 17:41:26 2024 +0200
+
+    Initial commit
+
+git log od bug1:
+
+commit cb7544bbe30e61a3e4fbc19d7bd106ee580bc95f (HEAD -> bug1, origin/bug1)
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:43:33 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit c0e9a39b712dca014a7e80f5aab81a7fc37814b6
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:37:53 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit a31e8a1a216d2779662fed6ded283472af853f18
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 17:45:27 2024 +0200
+
+    Add starter code
+
+commit 2eb4df5fb43559c70764c9d8e6f625c7a38eceeb
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 17:41:26 2024 +0200
+
+    Initial commit
+
+
+git log od bug2:
+
+
+commit 31a1f9151d9f2580fc4a106023b69c1e3d2e20e4 (HEAD -> bug2, origin/master, origin/bug2, master)
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:41:11 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit cb7544bbe30e61a3e4fbc19d7bd106ee580bc95f (origin/bug1, bug1)
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:43:33 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit c0e9a39b712dca014a7e80f5aab81a7fc37814b6
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 18:37:53 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit a31e8a1a216d2779662fed6ded283472af853f18
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 17:45:27 2024 +0200
+
+    Add starter code
+
+commit 2eb4df5fb43559c70764c9d8e6f625c7a38eceeb
+Author: IvanAndonov72 <ivanandonov19@gmail.com>
+Date:   Wed Apr 10 17:41:26 2024 +0200
+
+    Initial commit

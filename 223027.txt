@@ -1,0 +1,48 @@
+Vodenje na dokumentacija za sekoe baranje kade sto e potrebno koristenje na nekoja git komanda i objasnuvanje sto taa pravi..
+
+-------
+
+4. mkdir SI_2024_lab1_223027
+   cd SI_2024_lab1_223027
+   git init  - inicijalizirame prazen git repozitorium
+5. git remote add origin git@github.com:IvanAndonov72/SI_2024_lab1_223027.git   - povrzuvanje na lokalniot repozitorium so remote repo-to sto go kreiravme
+6. notepad README.md  - kreirame README.md file kade sto ke se potpiseme
+   git add README.md  - go pravime fajlot da ne bide untracked
+   git commit -a -m "Initial commit"  - Istovremeno go dodavame na stage i go komitnuvame fajlot i mu dodavame poraka "Initial commit"
+7. git add .  - site untracked files ni gi vadi od taa sostojba i gi pravi tracked
+   git commit -a -m "Add starter code"
+8. git push origin master  - gi sinhronizira site promeni na nasata lokalna granka master so remote repo-to
+9. git branch bug1  -kreira granka koja sto se razgranuva od master
+   git branch bug2
+10.  git checkout bug1  - se prefrlame na grankata bug1
+11.  notepad SILab1_1.java
+     git commit -a -m "Fix wrong condition in filterOddLengthStrings"
+12.  git checkout bug2
+13.  notepad SILab1_2.java
+     git commit -a -m "Fix wrong condition in makeBigStringFrom"
+14.  git checkout bug1
+15.  notepad SILab1Main.java
+     git commit -a -m "Call method filterOddLengthStrings in main class"
+16.  git checkout bug2
+17.  git commit -a -m "Call method makeBigStringFrom in main class"
+18.  git push origin master
+     git push origin bug1
+     git push origin bug2  - sinhronizacija na remote repo-to so soodvetnata lokalna granka
+19.  git checkout master
+20.  git merge bug1  - spojuvanje na master so bug1 po ff strategija
+21.  git push origin master
+     git push origin bug1
+     git push origin bug2
+22.  checkout bug2
+23.  git rebase master  - pravi rebase kon grankata master, no javuva konflikt pa zatoa go otvarame problematicniot fajl go ostavame toa sto go preferirame, pravime git add na toj fajl pa git rebase --continue
+24.  git checkout master
+25.  git merge bug2
+26.  git push origin master
+     git push origin bug1
+     git push origin bug2
+27.  git push bug2 --force  - potrebno e prisilno da ja pushneme grankata bug2 bidejki ne e up to date so taa sto e na remote repo-to
+28.  dodavanje na nov file logs.txt i ovoj fajl pravenje na git add pa git commit kako finalen komit na master grankata
+29.  git push origin master
+     git push origin bug1
+     git push origin bug2  
+     
